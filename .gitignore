@@ -1,0 +1,37 @@
+# Ignore build output
+dist/
+out/
+
+# Ignore dependencies
+node_modules/
+
+# Ignore environment-specific files
+.env
+
+# Ignore .vscode directory and its contents
+.vscode/
+
+# Ignore user-specific VS Code settings
+.vscode/settings.json
+
+# Ignore user-specific VS Code workspace settings
+.vscode/*.code-workspace
+
+# Ignore VS Code extensions
+.vscode/extensions.json
+
+# Ignore debug logs
+*.log
+
+# Ignore TypeScript declaration files
+*.d.ts
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore editor backups
+*~
+
+# Ignore npm package lock file
+package-lock.json
+
